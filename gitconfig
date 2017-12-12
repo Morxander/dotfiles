@@ -1,0 +1,25 @@
+[github]
+	user = Morxander
+
+[user]
+	name = Morad Edwar
+	email = me@morad-edwar.com
+
+[alias]
+	ck = checkout
+	cm = commit -m
+	pom = push origin master
+	plom = pull origin master
+	pod = push origin development
+	plod = pll origin development
+	poq = push origin qa
+	ploq = pull origin qa
+	logg = log --oneline --graph --color --decorate
+	lg = log --online
+	stu = status -s
+
+[push]
+	default = current
+
+[pull]
+	default = current
